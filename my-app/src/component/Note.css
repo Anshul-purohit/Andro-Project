@@ -1,0 +1,44 @@
+.dropdown-container{
+    /* background-color: aqua; */
+    /* position: fixed; */
+    /* margin: 110px; */
+    /* padding: 110px; */
+    /* width: 100%;
+    height: 100%; */
+}
+
+.dropdown-container {
+    /* max-width: 800px; */
+    /* margin: auto; */
+  }
+  
+  /* Style buttons using Bootstrap classes */
+  /* .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  } */
+  
+  /* Add animations using animate.css classes */
+  /* .animated {
+    animation-duration: 0.5s;
+  } */
+
+  /* YourContainer.css */
+
+.dropdown-container {
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+  }
+  
+  .dropdown-and-toolinfo {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* background-color: black; */
+
+  }
+  
+  .dropdown {
+    margin-right: 20px; /* Adjust spacing between Dropdown and ToolInfo */
+  }
+  

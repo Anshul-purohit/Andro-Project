@@ -1,0 +1,169 @@
+/* Navbar styling */
+.navbar {
+  background-color: #98cff4; /* Set your desired background color */
+  color: #fff; /* Set your desired text color */
+  padding: 15px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.brand-icon {
+  margin-right: 10px;
+}
+
+.Tool {
+  display: flex;
+  align-items: center;
+}
+
+.tool {
+  margin-right: 15px;
+}
+
+/* #toolDropdown,
+#cweDropdown {
+  padding: 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: #333;
+}
+
+#toolDropdown::after,
+#cweDropdown::after {
+  content: "▼";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+} */
+
+/* Style for the tool dropdown */
+.tool {
+  margin-right: 15px; /* Adjust the margin as needed */
+}
+
+/* Style for the dropdown select */
+#toolDropdown {
+  -webkit-appearance: none; /* Remove default arrow in Chrome/Safari */
+  -moz-appearance: none; /* Remove default arrow in Firefox */
+  appearance: none; /* Remove default arrow in other browsers */
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  /* border-radius: 4px; */
+  background-color: #98cff4; /* Set your desired background color */
+  color: #333; /* Set your desired text color */
+}
+
+/* Optional: Style for the dropdown arrow */
+#toolDropdown:hover{
+  text-decoration: underline; /* Add underline on hover */
+}
+
+#toolDropdown::after {
+  content: "▼";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Optional: Style for dropdown options */
+#toolDropdown option {
+  background-color: #fff; 
+  color: #333; 
+}
+
+
+/* Style for the tool1 dropdown */
+.tool1 {
+  margin-right: 15px; /* Adjust the margin as needed */
+}
+
+/* Style for the cweDropdown select */
+#cweDropdown {
+  -webkit-appearance: none; /* Remove default arrow in Chrome/Safari */
+  -moz-appearance: none; /* Remove default arrow in Firefox */
+  appearance: none; /* Remove default arrow in other browsers */
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  /* border-radius: 4px; */
+  background-color: #98cff4; /* Set your desired background color */
+  color: #333; /* Set your desired text color */
+}
+
+
+#cweDropdown:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Optional: Style for the cweDropdown arrow */
+#cweDropdown::after {
+  content: "▼";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Optional: Style for cweDropdown options */
+#cweDropdown option {
+  background-color: #fff; /* Set your desired background color */
+  color: #333; /* Set your desired text color */
+}
+
+
+
+/* Navbar search styling */
+.navbarS {
+  display: flex;
+  align-items: center;
+}
+
+.d {
+  display: flex;
+}
+
+.form-control {
+  margin-right: 10px;
+}
+
+.search-button {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+/* Optional: Add a hover effect to the search button */
+.search-button:hover {
+  background-color: #3498db;
+  color: #fff;
+  border: 1px solid #3498db;
+}
+
+
+.tool1 select,
+.tool select {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #495057;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+

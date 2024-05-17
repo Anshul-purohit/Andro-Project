@@ -1,0 +1,41 @@
+/* Stepbyguide.css */
+.instructions {
+    /* background-color: #f0f0f0; */
+    padding: 20px;
+    /* border-radius: 8px; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    margin: 0px auto;
+    text-align: center;
+  }
+  
+  .instructions h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .instructions p {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    color: #666;
+  }
+  
+  .instructions p:last-child {
+    margin-bottom: 0; /* Remove margin from the last paragraph */
+  }
+  
+  .instructions button {
+    background-color: #3cff00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .instructions button:hover {
+    background-color: #0056b3;
+  }
+  

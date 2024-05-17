@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@de.ecspride:dimen/activity_horizontal_margin" android:paddingBottom="@de.ecspride:dimen/activity_vertical_margin" android:layout_width="fill_parent" android:paddingTop="@de.ecspride:dimen/activity_vertical_margin" android:paddingRight="@de.ecspride:dimen/activity_horizontal_margin" android:layout_height="fill_parent">
+  <TextView android:layout_width="wrap_content" android:text="@de.ecspride:string/hello_world" android:layout_height="wrap_content" />
+</RelativeLayout>

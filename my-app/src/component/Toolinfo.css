@@ -1,0 +1,26 @@
+/* Toolinfo.css */
+
+.tool-info {
+    /* background-color: #961919; */
+    padding: 15px;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-left: 1000px;
+  }
+  
+  .tool {
+    color: #121212;
+    margin-left: 100px;
+  }
+  
+  .tool h3 {
+    margin-bottom: 10px;
+    /* margin-left: 100px; */
+  }
+  
+  .tool p {
+    color: #0b0909;
+    margin-left: 0;
+  }
+  

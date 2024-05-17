@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.0" android:versionCode="1" package="de.ecspride">
+  <uses-sdk android:targetSdkVersion="17" android:minSdkVersion="8" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.SEND_SMS" />
+  <application android:icon="@de.ecspride:drawable/ic_launcher" android:theme="@de.ecspride:style/AppTheme" android:label="@de.ecspride:string/app_name" android:debuggable="true" android:allowBackup="true">
+    <activity android:label="@de.ecspride:string/app_name" android:name="de.ecspride.Button2">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+</manifest>

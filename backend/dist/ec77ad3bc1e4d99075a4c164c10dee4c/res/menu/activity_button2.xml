@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:title="@de.ecspride:string/menu_settings" android:showAsAction="never" android:id="@de.ecspride:id/menu_settings" android:orderInCategory="100" />
+</menu>

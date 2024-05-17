@@ -1,0 +1,57 @@
+/* DynamicToolPage.css */
+
+.page-container {
+    /* max-width: 800px;
+    margin: 0 auto;
+    padding: 20px; */
+  }
+  
+  .tool-selectt {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .tool-infoo {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .tool-infoo h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .tool-infoo button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .tool-infoo button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .report {
+    margin-top: 20px;
+  }
+  
+  .report h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .report button {
+    padding: 6px 12px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

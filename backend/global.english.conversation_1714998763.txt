@@ -1,0 +1,103 @@
+===== Androwarn Report =====
+[+] Application Information
+	[.] Application Name                        
+		 - Conversation
+
+	[.] Application Version                     
+		 - 2.4
+
+	[.] Package Name                            
+		 - global.english.conversation
+
+	[.] Description                             
+		 - N/A
+		 - N/A
+
+
+[+] Analysis Results
+	[.] Telephony Identifiers Leakage           
+		 - This application reads the device phone type value
+		 - This application reads the numeric name (MCC+MNC) of current registered operator
+		 - This application reads the radio technology (network type) currently in use on the device for data transmission
+
+	[.] Device Settings Harvesting              
+		 - This application logs the message '' under the tag ''
+		 - This application logs the message '0' under the tag 'BackStackEntry'
+		 - This application logs the message '0' under the tag 'DataBuffer'
+		 - This application logs the message '0' under the tag 'FragmentManager'
+		 - This application logs the message '0' under the tag 'MetadataBundle'
+		 - This application logs the message '1' under the tag 'FragmentManager'
+		 - This application logs the message '1' under the tag 'GooglePlayServicesUtil'
+		 - This application logs the message '2' under the tag 'Asserts'
+		 - This application logs the message '2' under the tag 'BackStackEntry'
+		 - This application logs the message '2' under the tag 'FragmentActivity'
+		 - This application logs the message '2' under the tag 'FragmentManager'
+		 - This application logs the message '2' under the tag 'GmsClient'
+		 - This application logs the message '2' under the tag 'GooglePlayServicesUtil'
+		 - This application logs the message '2' under the tag 'ImageManager'
+		 - This application logs the message '2' under the tag 'LoaderManager'
+		 - This application logs the message '3' under the tag 'BackStackEntry'
+		 - This application logs the message '3' under the tag 'FragmentManager'
+		 - This application logs the message '3' under the tag 'GmsClient'
+		 - This application logs the message '3' under the tag 'GmsClientEvents'
+		 - This application logs the message '3' under the tag 'LoaderManager'
+		 - This application logs the message '3' under the tag 'ViewPager'
+		 - This application logs the message '4' under the tag 'FragmentManager'
+		 - This application logs the message '4' under the tag 'GooglePlayServicesUtil'
+		 - This application logs the message '5' under the tag 'FragmentManager'
+		 - This application logs the message '6' under the tag 'FragmentManager'
+		 - This application logs the message '7' under the tag 'BackStackEntry'
+		 - This application logs the message '7' under the tag 'FragmentActivity'
+		 - This application logs the message '7' under the tag 'FragmentManager'
+		 - This application logs the message '8' under the tag 'FragmentManager'
+		 - This application logs the message 'Calling connect() while still connected, missing disconnect().' under the tag 'GmsClient'
+		 - This application logs the message 'Certificate has expired.' under the tag 'GooglePlayServicesUtil'
+		 - This application logs the message 'Certificate is not yet valid.' under the tag 'GooglePlayServicesUtil'
+		 - This application logs the message 'Could not generate certificate.' under the tag 'GooglePlayServicesUtil'
+		 - This application logs the message 'Could not get certificate instance.' under the tag 'GooglePlayServicesUtil'
+		 - This application logs the message 'Google Play Store is missing.' under the tag 'GooglePlayServicesUtil'
+		 - This application logs the message 'Google Play Store signature invalid.' under the tag 'GooglePlayServicesUtil'
+		 - This application logs the message 'Google Play services is missing.' under the tag 'GooglePlayServicesUtil'
+		 - This application logs the message 'Google Play services missing when getting application info.' under the tag 'GooglePlayServicesUtil'
+		 - This application logs the message 'Google Play services signature invalid.' under the tag 'GooglePlayServicesUtil'
+		 - This application logs the message 'Has error' under the tag 'onItemClick'
+		 - This application logs the message 'Ljava/lang/Exception;->toString()Ljava/lang/String;' under the tag 'click_facebook'
+		 - This application logs the message 'Package has more than one signature.' under the tag 'GooglePlayServicesUtil'
+		 - This application logs the message 'The Google Play services resources were not found. Check your project configuration to ensure that the resources are included.' under the tag
+		   'GooglePlayServicesUtil'
+		 - This application logs the message 'behind INVISIBLE' under the tag 'CustomViewBehind'
+		 - This application logs the message 'changing layerType. hardware?  0' under the tag 'SlidingMenu'
+		 - This application logs the message 'saveAllState: no fragments!' under the tag 'FragmentManager'
+		 - This application logs the message 'service died' under the tag 'GmsClient'
+		 - This application logs the message 'setting padding!' under the tag 'SlidingMenu'
+		 - This application retrieves '' information about the 'Lmm/m;->getPackageName()Ljava/lang/String;' application installed on the system
+		 - This application retrieves '' information about the 'com.android.vending' application installed on the system
+		 - This application retrieves 'GET_SIGNATURES' information about the 'The Google Play services resources were not found. Check your project configuration to ensure that the resources are included.
+		   com.google.android.gms' application installed on the system
+		 - This application retrieves 'GET_SIGNATURES' information about the 'com.google.android.apps.bazaar' application installed on the system
+
+	[.] Connection Interfaces Exfiltration      
+		 - This application reads details about the currently active data network
+
+	[.] Audio Video Eavesdropping               
+		 - This application records audio from the 'MIC' source
+
+
+[+] Apk File
+	[.] File Name                               
+		 - 0a0005a5ad236120d725825ce527db5a
+
+	[.] Fingerprint                             
+		 - MD5: e7515ff4c54b3b447b7f3d175bf97888
+		 - SHA-1: e23db73aa3ee4be40648f70c08cb530371fe3a87
+		 - SHA-256: f1a52ec55166da43d583a4a55872d552b37a253108eac4da01e7b4ef1a4d6850
+
+
+[+] Androidmanifest.Xml
+	[.] Permissions                             
+		 - Asked: ['android.permission.ACCESS_NETWORK_STATE',  'android.permission.INTERNET',  'android.permission.PROCESS_OUTGOING_CALLS',  'android.permission.READ_PHONE_STATE',
+		   'android.permission.RECORD_AUDIO',  'android.permission.WRITE_EXTERNAL_STORAGE']
+		 - Implied: [['android.permission.READ_EXTERNAL_STORAGE', None]]
+		 - Declared: []
+
+

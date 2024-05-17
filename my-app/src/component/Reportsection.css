@@ -1,0 +1,116 @@
+/* Add these CSS styles to your Reportsections.css file or adjust as needed */
+
+/* Style for section titles */
+.section-header {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Hover effect for section titles */
+.section-header:hover {
+  background-color: #e0e0e0;
+}
+
+/* Style for open sections */
+.section-header.open {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the section content */
+.section-content {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fafafa;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for open section content */
+.section-content.open {
+  max-height: 1000px; /* Adjust the value as needed */
+  background-color: white;
+}
+
+/* Style for subsection titles */
+.subsection-title {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f1f0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}
+
+/* Style for open subsection titles */
+.subsection-title.open {
+  background-color: #ffffff;
+}
+
+/* Style for subsection content */
+.subsection-content {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #fafafa;
+  /* border: 1px solid #ccc; */
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  white-space: pre-line;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+
+.subsection-content.open {
+  max-height: none;
+  overflow-y: visible; 
+  background-color: #e0ecf8;
+  color: #007bff;
+}
+
+
+/* Style for button */
+.btnn {
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.btnn:hover {
+  background-color: #0056b3;
+}
+
+
+
+.subsection-title .cwe1 {
+  /* Add styles for the CWE number here */
+  color: #333; /* Dark color */
+  font-weight: bold; /* Optionally, make the CWE number bold */
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+}

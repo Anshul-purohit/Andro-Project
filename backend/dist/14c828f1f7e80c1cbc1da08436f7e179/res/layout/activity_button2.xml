@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+  <Button android:text="@de.ecspride:string/button1" android:layout_centerHorizontal="true" android:layout_marginTop="86.0dip" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:id="@de.ecspride:id/button1" android:layout_height="wrap_content" />
+  <Button android:text="@de.ecspride:string/button2" android:layout_below="@de.ecspride:id/button1" android:layout_width="wrap_content" android:id="@de.ecspride:id/button2" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:layout_alignLeft="@de.ecspride:id/button1" />
+  <Button android:onClick="clickOnButton3" android:layout_width="wrap_content" android:layout_marginTop="26.0dip" android:layout_below="@de.ecspride:id/button2" android:layout_alignLeft="@de.ecspride:id/button2" android:layout_height="wrap_content" android:id="@de.ecspride:id/button3" android:text="@de.ecspride:string/button3" />
+</RelativeLayout>
