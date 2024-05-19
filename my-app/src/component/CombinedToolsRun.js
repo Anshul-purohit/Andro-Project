@@ -13,6 +13,8 @@ export default function ApkSelection({
   handleApkDelete,
 }) {
 
+  console.log("Checking changes")
+
   // Defining State variable for each tool.
   const [selectedTools, setSelectedTools] = useState({
     Androbug: false,
